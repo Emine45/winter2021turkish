@@ -24,26 +24,27 @@ public class C3_IfStatement3 {
 		}
 		if(harf =='c') {
 			System.out.println("Carsamba, Cuma , Cumartesi");
-		}
+		} 
+		
 		
 		
 		//2. Way
-//		System.out.println("Lutfen gun isminin ilk harfini giriniz");
-//		char ilkHarf = scan.next().charAt(0);
-//		
-//		if(ilkHarf=='p' || ilkHarf=='P') {
-//			System.out.println("Pazartesi , Persembe, Pazar");
-//		}
-//		if(ilkHarf =='s' || ilkHarf =='S') {
-//			System.out.println("Sali");
-//		}
-//		if(ilkHarf =='c'  || ilkHarf =='c') {
-//			System.out.println("Carsamba, Cuma , Cumartesi");
-//		}
-//		if (ilkHarf!='p' && ilkHarf!='P' && ilkHarf!='s' && 
-//                ilkHarf!='S' && ilkHarf!='c' && ilkHarf!='C') {
-//            System.out.println("Lutfen gecerli bir harf yaziniz");
-//        }
+		System.out.println("Lutfen gun isminin ilk harfini giriniz");
+		char ilkHarf = scan.next().charAt(0);
+		
+		if(ilkHarf=='p' || ilkHarf=='P') {
+			System.out.println("Pazartesi , Persembe, Pazar");
+		}
+		if(ilkHarf =='s' || ilkHarf =='S') {
+			System.out.println("Sali");
+		}
+		if(ilkHarf =='c'  || ilkHarf =='C') {
+			System.out.println("Carsamba, Cuma , Cumartesi");
+		}
+		if (ilkHarf!='p' && ilkHarf!='P' && ilkHarf!='s' && 
+                ilkHarf!='S' && ilkHarf!='c' && ilkHarf!='C') {
+            System.out.println("Lutfen gecerli bir harf yaziniz");
+        }
 
 		
 		
