@@ -10,7 +10,8 @@ public class C4_ArtikYilNestedIf {
 	 	etmek icin yil girmesini isteyin.
 					
 		Kural 1: 4 ile bolunemeyen yillar artik yil degildir
-		Kural 2: 4’un kati olmasina ragmen 100 ile
+		Kural 2: 4’un kati olmasina ragmen 100 ile bolunebilen yillardan sadece 400’un kati olan yillar artik yildir                                                     kati olan yillar artik yildir 
+
 		*/
 
 		Scanner scan = new Scanner(System.in);

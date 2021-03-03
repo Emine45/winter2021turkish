@@ -16,25 +16,13 @@ public class C3_ArtikYil {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Lutfen yil giriniz");
 		int yil = scan.nextInt();
-		//1.Way
-		if(yil%4==0 && yil%100==0 && yil%400==0) {
-			System.out.println("Artik yil");
-		}else {
-			System.out.println("Artik yil degil");
-		}
 		
-		
-		
-		//2.Way
-		System.out.println("Lutfen yil yaziniz");
         
-        int yil1 = scan.nextInt();
-        
-        if (yil1%4==0  && yil1%100 != 0) {
+        if (yil%4==0  && yil%100 != 0) {
             
             System.out.println("Artik yil");
             
-        } else if(yil1 %100==0 && yil1%400==0){
+        } else if(yil %100==0 && yil%400==0){
             System.out.println("Artik yil");
             
         }else {

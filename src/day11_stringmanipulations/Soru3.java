@@ -1,0 +1,32 @@
+package day11_stringmanipulations;
+
+import java.util.Scanner;
+
+public class Soru3 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * Kullanicidan isim isteyin. Eger
+          - isim “a” harfi iceriyorsa “Girdiginiz isim a harfi iceriyor”
+          - isim “Z” harfi iceriyorsa “Girdiginiz isim Z harfi iceriyor”
+          - ikisi de yoksa “Girdiginiz isim a veya Z harfi icermiyor” yazdirin
+		 */
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Lutfen bir isim giriniz");
+		String isim = scan.nextLine();
+		
+		if(isim.contains("a") || isim.contains("A")) {
+				System.out.println("Girdiginiz isim a harfi iceriyor");
+		}else if(isim.contains("Z") || isim.contains("z")) {
+			System.out.println("Girdiginiz isim Z harfi iceriyor");
+		}else {
+			System.out.println("Girdiginiz isim a veya Z harfi icermiyor");
+		}
+		
+		scan.close();
+	
+	}
+}
