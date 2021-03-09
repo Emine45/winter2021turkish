@@ -1,10 +1,28 @@
 package day19_dowhileloop;
 
 public class C6_Scope {
+	
+	// Bir Class icerisinde olusturulan variable'larin nerede gecerli oldugu
+	// ve nereden kullanilabildigini o variable'in Scope'u belirler.
+	// google Java'da scopre nedir?
+	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		int sayi = 10;
+		
+		denemeMethod();
+		sayi++;
+		
+		System.out.println(sayi);
+		//System.out.println(isim);
+	}
+
+	public static void denemeMethod() {
+
+		// sayi = 20;
+		
+		String isim = "Emine";
 	}
 
 }
