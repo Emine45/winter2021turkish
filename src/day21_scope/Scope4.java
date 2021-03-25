@@ -3,7 +3,6 @@ package day21_scope;
 public class Scope4 {
 
 	public static void main(String[] args) {
-
 		int sayi = 10;
 		// bir method icinde olusturulan variable, sadece o method icinde kullanilabilir
 		// System.out.println(isim);
